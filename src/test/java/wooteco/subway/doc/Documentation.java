@@ -11,7 +11,8 @@ public class Documentation {
 	public static RestDocumentationFilter create(String identifier) {
 		return document("favorite/" + identifier,
 		                requestFields(
-		                		fieldWithPath("source").type(JsonFieldType.STRING).description("you")
+			                fieldWithPath("source").type(JsonFieldType.STRING).description("you")
 		                ));
+		// 알 수 없다..
 	}
 }
