@@ -12,7 +12,7 @@ import static org.springframework.restdocs.request.RequestDocumentation.pathPara
 
 public class FavoriteDocumentation {
 	public static RestDocumentationResultHandler createFavorite(String identifier) {
-		// 포맷 적용 확인
+		// 포맷 적용 확인2
 		return document("favorite/" + identifier,
 		                requestFields(
 				                fieldWithPath("source").type(JsonFieldType.STRING).description("the departure " +
